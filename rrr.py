@@ -5,5 +5,5 @@ so_ky = int(input("Nhập số kỳ (tháng/năm): "))
 tien_cuoi = von * (1 + lai_suat) ** so_ky
 loi_nhuan = tien_cuoi - von
 
-print("Số tiền sau cùng:", tien_cuoi
+print("Số tiền sau cùng:", tien_cuoi)
 
