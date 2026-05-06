@@ -7,3 +7,4 @@ so_thang = 12
 tien_cuoi = tien_ban_dau * (1 + lai_suat) ** so_thang
 
 print("Số tiền sau 12 tháng là:", tien_cuoi)
+print("Lợi nhuận:", tien_cuoi - tien_ban_dau)
