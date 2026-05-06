@@ -35,4 +35,4 @@ print(df["anomaly"].value_counts())
 # 8. Lấy các giao dịch bất thường
 fraud = df[df["anomaly"] == -1]
 print("\nMột số giao dịch bất thường:")
-print(())
+print(fraud.head())
